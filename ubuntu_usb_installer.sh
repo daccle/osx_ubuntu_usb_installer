@@ -77,7 +77,7 @@ if [[ ! $REPLY =~ ^[0-9]$ ]]
 fi
 
 
-echo "Which version of Ubuntu Desktop 14.04.2 LTS would you like to write to ${usb_device}"
+echo "Which version of Ubuntu Desktop 16.04.2 LTS would you like to write to ${usb_device}"
 echo ""
 echo "1 = i386"
 echo "2 = amd64"
