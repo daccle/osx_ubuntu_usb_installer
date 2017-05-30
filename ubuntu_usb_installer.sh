@@ -24,13 +24,13 @@
 # SOFTWARE.
 
 ### TO UPDATE TO UBUNTU VERSIONS BEIGN USED CHANGE THE FOLLOWING LINES
-ubuntu_url="http://releases.ubuntu.com/14.04.2/"
+ubuntu_url="http://releases.ubuntu.com/releases/16.04/"
 
-ubuntu_i386="ubuntu-14.04.2-desktop-i386.iso"
-ubuntu_i386_md5="a8a14f1f92c1ef35dae4966a2ae1a264"
+ubuntu_i386="ubuntu-16.04.2-desktop-i386.iso"
+ubuntu_i386_md5="e14b5f2177b00dac3edc94b0e806f857"
 
-ubuntu_amd64="ubuntu-14.04.2-desktop-amd64.iso"
-ubuntu_amd64_md5="1b305d585b1918f297164add46784116"
+ubuntu_amd64="ubuntu-16.04.2-desktop-amd64.iso"
+ubuntu_amd64_md5="1400884cec8e40a1a876b2678f81494b"
 ### NO CHANGES NEEDED BELOW THESE LINES
 
 
@@ -77,7 +77,7 @@ if [[ ! $REPLY =~ ^[0-9]$ ]]
 fi
 
 
-echo "Which version of Ubuntu Desktop 14.04.2 LTS would you like to write to ${usb_device}"
+echo "Which version of Ubuntu Desktop 16.04.2 LTS would you like to write to ${usb_device}"
 echo ""
 echo "1 = i386"
 echo "2 = amd64"
